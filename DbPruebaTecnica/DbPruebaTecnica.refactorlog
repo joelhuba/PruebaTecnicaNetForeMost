@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="70627b20-b07b-4001-880b-8b888ba25b47" ChangeDateTime="10/03/2024 02:26:33">
+    <Property Name="ElementName" Value="[dbo].[Gestores].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Gestores]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GestorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0570518d-656a-4c04-a51d-1edaf7bd7676" ChangeDateTime="10/03/2024 02:27:38">
+    <Property Name="ElementName" Value="[dbo].[Saldos].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Saldos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SaldoId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b6fa1e7b-2a8b-4b9b-ae72-0642bff5a231" ChangeDateTime="10/03/2024 02:31:18">
+    <Property Name="ElementName" Value="[dbo].[BalanceManagersAssignment].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BalanceManagersAssignment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AssignmentId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e9dc2bee-61cb-4078-8d89-b2eb3a62fcde" ChangeDateTime="10/03/2024 02:31:32">
+    <Property Name="ElementName" Value="[dbo].[Managers].[GestorId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Managers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ManagerId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34158453-358c-4c85-bcf4-a8bf958a9601" ChangeDateTime="10/03/2024 02:31:41">
+    <Property Name="ElementName" Value="[dbo].[Balance].[Saldo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Balance]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Balance" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7731a800-3edd-41aa-bf72-8032ee179136" ChangeDateTime="10/03/2024 02:31:47">
+    <Property Name="ElementName" Value="[dbo].[Balance].[SaldoId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Balance]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BalanceId" />
+  </Operation>
+</Operations>
